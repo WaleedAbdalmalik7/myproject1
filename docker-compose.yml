@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   vscodeexample:
-    image: vscodeexample
+     image: jenkins/jenkins:lts
     build:
       context: .
       dockerfile: ./Dockerfile
