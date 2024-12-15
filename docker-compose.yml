@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vscodeexample:
+    image: vscodeexample
+    build:
+      context: .
+      dockerfile: ./Dockerfile
